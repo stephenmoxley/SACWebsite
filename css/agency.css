@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #b7a57a;
 }
 
 a:hover {
-  color: #fec503;
+  color: #b7a57a;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #b7a57a !important;
 }
 
 h1,
@@ -71,13 +71,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #b7a57a;
+  border-color: #b7a57a;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #b7a57a !important;
+  border-color: #b7a57a !important;
   color: white;
 }
 
@@ -87,12 +87,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #b7a57a;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #b7a57a;
   text-shadow: none;
 }
 
@@ -106,6 +106,11 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#email {
+  color: #4b2e83;
+  text-decoration: underline;
 }
 
 #mainNav {
@@ -124,12 +129,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #b7a57a;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #b7a57a;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -142,7 +147,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #b7a57a;
 }
 
 @media (min-width: 992px) {
@@ -176,7 +181,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg");*/
+  background-color: #4b2e83;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -250,7 +256,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: #b7a57a;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

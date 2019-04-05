@@ -17,6 +17,11 @@ a {
   color: #b7a57a;
 }
 
+.container-horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+}
+
 a:hover {
   color: #b7a57a;
 }
